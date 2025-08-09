@@ -113,7 +113,7 @@ If your repository was approved for release under a different open source licens
 
 If your project has more than one license, then you must include *all* of the relevant licenses in your repository.  We recommend that you name them with descriptive suffixes.  For example, if your project is dual licensed under Apache-2.0 and MIT, you should have top-level `LICENSE-APACHE` and `LICENSE-MIT` files.
 
-Because GitHub does not automatically detect multiple licenses, we recommend *also* adding a top-level `COPYRIGHT` file with a summary of license details. GitHub's "view license" link will then point to this file.  You can look at [Spack](https://github.com/spack/spack) and its `README.md`, `COPYRIGHT`, and `LICENSE-*` files for an example of how to organize a project with two licenses.
+Because GitHub does not automatically detect multiple licenses, we recommend *also* adding a top-level `COPYRIGHT` file with a summary of license details. GitHub's "view license" link will then point to this file.  You can look at [Spack](https://github.com/spack/spack) and its `README.md`, `COPYRIGHT`, and `LICENSE-*` files for an example of how to organize a project with two licenses. See also the Linux Foundation's [recommendations for copyright notices](https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects).
 
 ## Other Considerations
 
@@ -157,6 +157,12 @@ Note the copyright section prominently mentions LLNS. It also mentions other Spa
 The Spack example mentions a [`COPYRIGHT`](https://github.com/spack/spack/blob/develop/COPYRIGHT) file because Spack is dual-licensed (see above). If you just have a single license, you can simply refer to the `LICENSE` file in your header.
 
 For more information on using SPDX in your code, see the [SPDX website](https://spdx.org/licenses/).
+
+### Source file license headers
+
+Header requirements can vary depending on the chosen license. Most open source licenses (e.g., Apache 2.0, MIT,  GPL) do not strictly require license headers in each file, while others (e.g., LGPL-3.0) do. In any case, brief headers are recommended to ensure that whichever license you choose is also included with the source code, especially if those files are re-used.
+
+For example, visit the [Spack](https://github.com/spack/spack) or [Flux](https://github.com/flux-framework) projects to see how the different source files are labeled with headers depending on the license.
 
 ### Developer Certificate of Origin (DCO)
 

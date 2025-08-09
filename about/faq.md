@@ -101,7 +101,7 @@ If you are an employee at LLNL and have 2FA enabled, you are eligible to join th
   {% include components/accordion.html title='How do I join the LLNL organization on GitHub?'  slug='join' content=accordionContent %}
 
 {% capture accordionContent %}
-Before content is placed into an LLNL GitHub.com repository, it should be reviewed and released via LLNL's Information Management (IM) process. All information produced by LLNL must follow the guidance set forth by the LLNL IM policy for both [initial release and incremental contributions <i class="fa fa-light fa-lock"></i>](https://dev.llnl.gov/opensource/contributing/).
+Before content is placed into an LLNL GitHub.com repository, it should be reviewed and released via LLNL's Information Management (IM) process–even if you plan on setting the repository to *Private* instead of *Public*. All information produced by LLNL must follow the guidance set forth by the LLNL IM policy for both [initial release and incremental contributions <i class="fa fa-light fa-lock"></i>](https://dev.llnl.gov/opensource/contributing/). LLNL employees can follow ["one-stop shop" instructions <i class="fa fa-light fa-lock"></i>](https://dev.llnl.gov/open-source/one-stop-shop/) for releasing software.
 {% endcapture %}
   {% assign accordionContent = accordionContent | markdownify %}
   {% include components/accordion.html title='How do I get my repo reviewed and released for GitHub?' slug='released' content=accordionContent %}
@@ -149,7 +149,7 @@ The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) descr
 {% capture alertContent %}
 
 * Repositories within the LLNL organization are owned and managed by LLNL. Please do not create personal repositories here.
-* All LLNL repos must go through the IM process (see the FAQ [How do I get my repo reviewed and released for GitHub?](/about/faq/#how-do-i-get-my-repo-reviewed-and-released-for-github)) and display the appropriate open source license and `LLNL-CODE-xxxxxx` release number.
+* All LLNL repos must go through the IM process (see the FAQ [How do I get my repo reviewed and released for GitHub?](https://software.llnl.gov/about/faq/#released)) and display the appropriate open source license and `LLNL-CODE-xxxxxx` release number.
 * If the repo wasn't developed at LLNL, its license needs to be clearly indicated. See the [LLNL Software Licensing](/about/licenses) page for examples.
 
 {% endcapture %}
@@ -159,9 +159,12 @@ The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) descr
 
 If you've set up your repository within the **LLNL organization**, you don't need to take any action; it will automatically appear after the next data update.
 
-* If your repository exists under a different organization, you can move it to LLNL: Settings > Danger Zone > Transfer ownership > Transfer button.
+* **Organization transfer.** If your repository exists under a different organization, you can move it to LLNL: Settings > Danger Zone > Transfer ownership > Transfer button. This process notifies our GitHub admins, who can update your role. For instance, upon transfer, repo admins are defaulted to the `write` role instead of `admin`. The transfer process also includes your project's association with team members who contribute to the repo; they too come over with the `write` role by default.
 
-* Alternatively, you can submit a pull request updating the [`input_lists.json` file](https://github.com/LLNL/llnl.github.io/blob/main/_visualize/input_lists.json) with your organization and/or repository names. List your organization under the `"orgs"` line *only if you intend for all of its repositories to be included in the catalog* (e.g., `glvis`); otherwise, list only the repository under the `"repos"` line within the context of your organization (e.g., `hpc/spindle`).
+    * See also [GitHub's instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) for transferring a repo.
+    * Sometimes the transferring organization wants to retain a copy (mirror or fork) of the repo, or a project lead "takes" the repo with them to another organization.
+
+* **Standalone organization.** Alternatively, if you do not wish to transfer your repo, you can instead submit a pull request updating the [`input_lists.json` file](https://github.com/LLNL/llnl.github.io/blob/main/_visualize/input_lists.json) with your organization and/or repository names. List your organization under the `"orgs"` line *only if you intend for all of its repositories to be included in the catalog* (e.g., `glvis`); otherwise, list only the repository under the `"repos"` line within the context of your organization (e.g., `hpc/spindle`).
 
 * If your repo is part of the [RADIUSS project](https://software.llnl.gov/radiuss/projects/), be sure to add it to that website's [`contributor-ci.yaml` file](https://github.com/LLNL/radiuss/blob/main/contributor-ci.yaml).
 
@@ -196,14 +199,6 @@ Now that your project is on GitHub, make sure users and contributors can find it
   {% include components/accordion.html title='How do I let people know about my new repo?'  slug='publicize' content=accordionContent %}
 
 {% capture accordionContent %}
-Submit a pull request! This website is a GitHub repo just like any other LLNL open source project. News is housed in the [`_posts` directory](https://github.com/LLNL/llnl.github.io/tree/main/_posts), and templates are found in the [LLNL/.github repo](https://github.com/LLNL/.github). See [Contributing Guidelines](../contribute) for more information.
-
-Before contributing, please contact [open-source@llnl.gov](mailto:open-source@llnl.gov) with your idea or if you have questions about whether your proposed content requires the LLNL review and release process.
-{% endcapture %}
-  {% assign accordionContent = accordionContent | markdownify %}
-  {% include components/accordion.html title='How do I contribute news or other content to this website?'  slug='contribute-here' content=accordionContent %}
-
-{% capture accordionContent %}
 Yes, you can give external contributors Write access to your GitHub repo. Anyone with Admin access to your repo can enable this: Settings > Collaborators > Manage access > Add people > enter their username and select.
 
 If you don't already have Admin access to your repo, contact [github-admin@llnl.gov](mailto:github-admin@llnl.gov) to request it.
@@ -211,6 +206,15 @@ If you don't already have Admin access to your repo, contact [github-admin@llnl.
 {% endcapture %}
   {% assign accordionContent = accordionContent | markdownify %}
   {% include components/accordion.html title='Can non-LLNL developers/collaborators contribute to my project?'  slug='collaborators' content=accordionContent %}
+
+{% capture accordionContent %}
+If the owner/admin of a repo leaves the project, another team member(s) with a GitHub account must take over the Admin role.
+
+If you need help re-assigning permissions in your repo, contact [github-admin@llnl.gov](mailto:github-admin@llnl.gov) to confirm the user's departure and successor(s).
+
+{% endcapture %}
+  {% assign accordionContent = accordionContent | markdownify %}
+  {% include components/accordion.html title='How do I change ownership of a specific repo?'  slug='new-owner' content=accordionContent %}
 
 {% capture accordionContent %}
 
@@ -242,6 +246,23 @@ Migrating the repo outside of the LLNL organization requires an organization adm
   {% include components/accordion.html title='My repo has grown. How do I move it out of the LLNL organization?'  slug='transfer-out' content=accordionContent %}
 
 {% capture accordionContent %}
+<!-- START: Warning Box -->
+{% capture alertContent %}
+
+Even if your collection of repos are housed under another organization but developed on behalf of LLNL, they must go through the IM process (see the FAQ [How do I get my repo reviewed and released for GitHub?](https://software.llnl.gov/about/faq/#released)) and display the appropriate open source license and `LLNL-CODE-xxxxxx` release number.
+
+{% endcapture %}
+{% assign alertContent = alertContent | markdownify %}
+{% include components/alert.html type="warning" icon="fa-circle-info" content=alertContent  %}
+<!-- END: Warning Box -->
+
+Follow the instructions in the question [How do I include my repo in the LLNL organization and/or this website’s catalog?](https://software.llnl.gov/about/faq/#catalog) beginning with the second bullet point since you are not transferring the organization to LLNL.
+
+{% endcapture %}
+  {% assign accordionContent = accordionContent | markdownify %}
+  {% include components/accordion.html title='I need to create repos under a new org for business reasons. Can I still include them in this catalog?'  slug='new-org' content=accordionContent %}
+
+{% capture accordionContent %}
 Refer to individual projects for their requirements on accepting contributions. (To contribute to this website, see our [Contributing Guidelines](/about/contribute).) In general, though, we follow the "fork and pull" Git workflow model:
 
 1. Fork a repository.
@@ -256,6 +277,14 @@ Refer to individual projects for their requirements on accepting contributions. 
 {% endcapture %}
   {% assign accordionContent = accordionContent | markdownify %}
   {% include components/accordion.html title='How do I contribute to an LLNL repo?'  slug='contribute-repo' content=accordionContent %}
+
+{% capture accordionContent %}
+Submit a pull request! This website is a GitHub repo just like any other LLNL open source project. News is housed in the [`_posts` directory](https://github.com/LLNL/llnl.github.io/tree/main/_posts), and templates are found in the [LLNL/.github repo](https://github.com/LLNL/.github). See [Contributing Guidelines](../contribute) for more information.
+
+Before contributing, please contact [open-source@llnl.gov](mailto:open-source@llnl.gov) with your idea or if you have questions about whether your proposed content requires the LLNL review and release process.
+{% endcapture %}
+  {% assign accordionContent = accordionContent | markdownify %}
+  {% include components/accordion.html title='How do I contribute news or other content to this website?'  slug='contribute-here' content=accordionContent %}
 
 </div>
 <!-- END: Accordions -->

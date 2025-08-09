@@ -667,7 +667,7 @@
         "website": "https://libceed.org"
     },
     "E3SM-Project/scream": {
-        "description": "Exascale global atmosphere model written in C++ as part of the E3SM project",
+        "description": "Fork of E3SM used to develop exascale global atmosphere model written in C++ (aka SCREAM)",
         "name": "E3SM-Project/scream",
         "topics": [
             "climate",
@@ -678,7 +678,7 @@
             "cxx",
             "e3sm"
         ],
-        "website": "https://e3sm-project.github.io/scream/"
+        "website": "https://docs.e3sm.org/E3SM/EAMxx/"
     },
     "ECP-VeloC/AXL": {
         "description": "Asynchronous Transfer Library",
@@ -1028,7 +1028,7 @@
         "description": "Common models, configuration and functionality for the ESGF-Playground",
         "name": "ESGF/esgf-playground-utils",
         "topics": null,
-        "website": null
+        "website": "https://esgf.github.io/esgf-playground-utils/"
     },
     "ESGF/esgf-prepare": {
         "description": "Toolbox preparing your data for ESGF publication",
@@ -1052,6 +1052,12 @@
             "logon"
         ],
         "website": "https://esgf-pyclient.readthedocs.io/en/latest/"
+    },
+    "ESGF/esgf-qc": {
+        "description": "ESGF-QC ",
+        "name": "ESGF/esgf-qc",
+        "topics": null,
+        "website": "https://esgf.github.io/esgf-qc/"
     },
     "ESGF/esgf-roadmap": {
         "description": "Plan out roadmap for development and testing activities for ESGF in preparation for CMIP7",
@@ -1131,6 +1137,12 @@
         "topics": null,
         "website": null
     },
+    "ESGF/esgf-vocab": {
+        "description": "CLI + library to deal with WCRP CVs",
+        "name": "ESGF/esgf-vocab",
+        "topics": null,
+        "website": "https://esgf.github.io/esgf-vocab/"
+    },
     "ESGF/esgf-web-fe": {
         "description": "ESGF Web Front End",
         "name": "ESGF/esgf-web-fe",
@@ -1178,6 +1190,12 @@
         "name": "ESGF/sproket",
         "topics": null,
         "website": ""
+    },
+    "ESGF/stac-transaction-api": {
+        "description": null,
+        "name": "ESGF/stac-transaction-api",
+        "topics": null,
+        "website": null
     },
     "FrankD412/pyaestro": {
         "description": "A collection of generalized workflow components for HPC and multi-step workflows.",
@@ -1231,7 +1249,7 @@
         "website": "http://glvis.org"
     },
     "GLVis/glvis-js": {
-        "description": "JavaScript/WebAsembly GLVis Library",
+        "description": "JavaScript/WebAssembly GLVis Library",
         "name": "GLVis/glvis-js",
         "topics": [
             "javascript",
@@ -1261,6 +1279,12 @@
         "topics": null,
         "website": ""
     },
+    "GLVis/releases-js": {
+        "description": "Archive of glvis-js releases",
+        "name": "GLVis/releases-js",
+        "topics": null,
+        "website": null
+    },
     "GLVis/web": {
         "description": "GLVis website",
         "name": "GLVis/web",
@@ -1286,7 +1310,8 @@
             "simulation",
             "co-simulation",
             "power-grids",
-            "simulation-framework"
+            "simulation-framework",
+            "hacktoberfest"
         ],
         "website": "https://docs.helics.org/en/latest/"
     },
@@ -1603,7 +1628,8 @@
         "name": "GMLC-TDC/pyhelics",
         "topics": [
             "helics",
-            "python"
+            "python",
+            "hacktoberfest"
         ],
         "website": "https://python.helics.org"
     },
@@ -1612,6 +1638,12 @@
         "name": "GMLC-TDC/redoc",
         "topics": null,
         "website": "https://sphinxcontrib-redoc.readthedocs.io/"
+    },
+    "GMLC-TDC/simHELICS": {
+        "description": "simulink interface to HELICS",
+        "name": "GMLC-TDC/simHELICS",
+        "topics": null,
+        "website": null
     },
     "GMLC-TDC/spack": {
         "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
@@ -1628,6 +1660,59 @@
     "GMLC-TDC/utilities": {
         "description": "string manipulation, vector operations, and other small useful utilities used in HELICS and related codes",
         "name": "GMLC-TDC/utilities",
+        "topics": null,
+        "website": null
+    },
+    "LBANN/DGraph": {
+        "description": "Optimized algorithms for distributed and dense graph neural networks.",
+        "name": "LBANN/DGraph",
+        "topics": null,
+        "website": null
+    },
+    "LBANN/DiHydrogen": {
+        "description": null,
+        "name": "LBANN/DiHydrogen",
+        "topics": [
+            "cpp",
+            "math-physics"
+        ],
+        "website": null
+    },
+    "LBANN/HPC-launcher": {
+        "description": "Launcher utilities for HPC resources",
+        "name": "LBANN/HPC-launcher",
+        "topics": null,
+        "website": null
+    },
+    "LBANN/cb_optillm": {
+        "description": "Optimizing inference proxy for LLMs",
+        "name": "LBANN/cb_optillm",
+        "topics": null,
+        "website": ""
+    },
+    "LBANN/lbann": {
+        "description": "Livermore Big Artificial Neural Network Toolkit",
+        "name": "LBANN/lbann",
+        "topics": [
+            "machine-learning",
+            "neural-network",
+            "hpc",
+            "cpp",
+            "radiuss",
+            "performance",
+            "artificial-intelligence"
+        ],
+        "website": "http://software.llnl.gov/lbann/"
+    },
+    "LBANN/llama": {
+        "description": "Parallel implementation of the LLaMA models ",
+        "name": "LBANN/llama",
+        "topics": null,
+        "website": ""
+    },
+    "LBANN/pyyogrt": {
+        "description": null,
+        "name": "LBANN/pyyogrt",
         "topics": null,
         "website": null
     },
@@ -1800,10 +1885,10 @@
         "website": null
     },
     "LLNL/Analytic_Deflection_of_Asteroids_by_NEDs": {
-        "description": "This package evaluates an analytic formula for the &Delta v imparted to an asteroid by a 1 or 2 keV black body source given the radius of the asteroid, the standoff distance, the Yield in x-rays, the density of the asteroid, and the fit coefficients for the 1 or 2 keV black body source (provided in the module). ",
+        "description": "This package evaluates an analytic formula for the Delta v imparted to an asteroid by a 1 or 2 keV black body source given the radius of the asteroid, the standoff distance, the Yield in x-rays, the density of the asteroid, and the fit coefficients for the 1 or 2 keV black body source (provided in the module). ",
         "name": "LLNL/Analytic_Deflection_of_Asteroids_by_NEDs",
         "topics": null,
-        "website": null
+        "website": ""
     },
     "LLNL/AutoCog": {
         "description": "Automaton & Cognition",
@@ -1854,11 +1939,20 @@
         ],
         "website": "https://software.llnl.gov/Babel/"
     },
+    "LLNL/BayesMTL": {
+        "description": "This project is an implementation of the Bayesian Multitask Learning (BayesMTL) from the paper Hierarchical Sparse Bayesian Multitask Model with Scalable Inference for Microbiome Analysis.",
+        "name": "LLNL/BayesMTL",
+        "topics": null,
+        "website": null
+    },
     "LLNL/BinCFG": {
         "description": "A Python tool designed to parse analyzer outputs to produce call flow graphs (CFG), tokenize and normalize the assembly lines within those CFGs, and convert that data into ML-ready formats. We are working on novel approaches to correlate this data with event data collected at runtime.",
         "name": "LLNL/BinCFG",
-        "topics": null,
-        "website": null
+        "topics": [
+            "python",
+            "machine-learning"
+        ],
+        "website": ""
     },
     "LLNL/BinFPE": {
         "description": "Detects floating-point exceptions using binary instrumentation",
@@ -1869,8 +1963,13 @@
     "LLNL/CAP": {
         "description": "HPC workflow that automates the tedious actions of compiling, analyzing, and parsing with bincfg",
         "name": "LLNL/CAP",
-        "topics": null,
-        "website": null
+        "topics": [
+            "hpc",
+            "python",
+            "workflows",
+            "data-analysis"
+        ],
+        "website": ""
     },
     "LLNL/CARE": {
         "description": "CHAI and RAJA provide an excellent base on which to build portable codes. CARE expands that functionality, adding new features such as loop fusion capability and a portable interface for many numerical algorithms. It provides all the basics for anyone wanting to write portable code.",
@@ -2034,6 +2133,18 @@
         ],
         "website": null
     },
+    "LLNL/CompilerGPT": {
+        "description": "Driver tieing together compiler and AI models to achieve better code optimizations.",
+        "name": "LLNL/CompilerGPT",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/ContinuationSolvers": {
+        "description": null,
+        "name": "LLNL/ContinuationSolvers",
+        "topics": null,
+        "website": null
+    },
     "LLNL/Copson_Expansion_Solution": {
         "description": "Evaluate Copson's solution for the expansion of an ideal gas into vacuum",
         "name": "LLNL/Copson_Expansion_Solution",
@@ -2059,6 +2170,24 @@
     "LLNL/DD-NM-ROM": {
         "description": null,
         "name": "LLNL/DD-NM-ROM",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/DECIDER": {
+        "description": "DECIDER: Leveraging Foundation Model Priors for Improved Model Failure Detection and Explanation",
+        "name": "LLNL/DECIDER",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/DFDashboard": {
+        "description": "The Interactive Visualization Layer of the DataFlowX Suite",
+        "name": "LLNL/DFDashboard",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/DFDiagnoser": {
+        "description": null,
+        "name": "LLNL/DFDiagnoser",
         "topics": null,
         "website": null
     },
@@ -2095,15 +2224,6 @@
             "machine-learning"
         ],
         "website": ""
-    },
-    "LLNL/DiHydrogen": {
-        "description": null,
-        "name": "LLNL/DiHydrogen",
-        "topics": [
-            "cpp",
-            "math-physics"
-        ],
-        "website": null
     },
     "LLNL/Downscaled-Climate-Data-Dashboard": {
         "description": null,
@@ -2177,13 +2297,13 @@
         "website": null
     },
     "LLNL/ExaCMech": {
-        "description": null,
+        "description": "A GPU-friendly materials library with a focus on crystal plasticity methods",
         "name": "LLNL/ExaCMech",
         "topics": [
             "gpu",
             "math-physics"
         ],
-        "website": null
+        "website": ""
     },
     "LLNL/ExaConstit": {
         "description": "A crystal plasticity FEM code that runs on the GPU",
@@ -2265,9 +2385,25 @@
         "topics": null,
         "website": ""
     },
+    "LLNL/FTTN": {
+        "description": "Test suite to evaluate the numerical behaviors of matrix accelerators of GPUs",
+        "name": "LLNL/FTTN",
+        "topics": [
+            "testing",
+            "gpu",
+            "hpc"
+        ],
+        "website": ""
+    },
     "LLNL/FastGlobalFileStatus": {
         "description": "Fast and scalable retrieval techniques for file global properties",
         "name": "LLNL/FastGlobalFileStatus",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/FloatGuard": {
+        "description": "FloatGuard is a tool that captures floating-point exceptions in your AMD HIP kernels.",
+        "name": "LLNL/FloatGuard",
         "topics": null,
         "website": null
     },
@@ -2305,7 +2441,7 @@
             "math-physics",
             "pde"
         ],
-        "website": ""
+        "website": "http://software.llnl.gov/GPLaSDI/"
     },
     "LLNL/GPP": {
         "description": "The Generative Patch Prior for Compressive Image Recovery",
@@ -2384,13 +2520,19 @@
         "website": null
     },
     "LLNL/GridKit": {
-        "description": "Experimental code for prototyping interfaces betwen numerical libraries and network models.",
+        "description": "Experimental code for prototyping interfaces between numerical libraries and network models.",
         "name": "LLNL/GridKit",
         "topics": [
             "cpp",
             "energy"
         ],
         "website": ""
+    },
+    "LLNL/Gula": {
+        "description": "3d model for a hypothetical facility, the Gula Regional Hospital",
+        "name": "LLNL/Gula",
+        "topics": null,
+        "website": null
     },
     "LLNL/H2OI95": {
         "description": "A Code for Evaluating the IAPWS-95 Equation-of-State Model for Water",
@@ -2498,7 +2640,7 @@
         "website": null
     },
     "LLNL/LEAP": {
-        "description": "comprehensive library of 3D transmission Computed Tomography (CT) algorithms with Python and C++ APIs and fully integrated with PyTorch",
+        "description": "comprehensive library of 3D transmission Computed Tomography (CT) algorithms with Python and C++ APIs, a PyQt GUI, and fully integrated with PyTorch",
         "name": "LLNL/LEAP",
         "topics": [
             "machine-learning",
@@ -2513,14 +2655,14 @@
             "leap",
             "ct",
             "image-reconstruction",
-            "nde",
             "metal-artifact-reduction",
             "iterative-reconstruction",
             "beamhardening",
             "bhc",
             "scatter-correction",
             "abel-transform",
-            "tomographic-reconstruction"
+            "tomographic-reconstruction",
+            "helical-reconstruction"
         ],
         "website": "https://leapct.readthedocs.io"
     },
@@ -2619,6 +2761,12 @@
         "topics": null,
         "website": null
     },
+    "LLNL/Lintap": {
+        "description": "Proof of concept host-based event sensor for Linux. An attempt to implement Wintap for Linux.",
+        "name": "LLNL/Lintap",
+        "topics": null,
+        "website": null
+    },
     "LLNL/MACSio": {
         "description": "A Multi-purpose, Application-Centric, Scalable I/O Proxy Application",
         "name": "LLNL/MACSio",
@@ -2712,6 +2860,12 @@
             "neural-network"
         ],
         "website": ""
+    },
+    "LLNL/MUPPET": {
+        "description": "OpenMP mutations",
+        "name": "LLNL/MUPPET",
+        "topics": null,
+        "website": null
     },
     "LLNL/MacPatch": {
         "description": "Software & Patch management for macOS",
@@ -2841,12 +2995,26 @@
         "topics": null,
         "website": null
     },
+    "LLNL/NM-ROM": {
+        "description": "NM-ROM",
+        "name": "LLNL/NM-ROM",
+        "topics": null,
+        "website": null
+    },
     "LLNL/NPB": {
         "description": "Fork of the NASA Advanced Supercomputing Division's NAS Parallel Benchmarks",
         "name": "LLNL/NPB",
         "topics": [
             "benchmark",
             "parallel-computing"
+        ],
+        "website": ""
+    },
+    "LLNL/NSBC": {
+        "description": null,
+        "name": "LLNL/NSBC",
+        "topics": [
+            "application"
         ],
         "website": ""
     },
@@ -2981,6 +3149,16 @@
         "topics": null,
         "website": null
     },
+    "LLNL/PhyML": {
+        "description": "Physics based Machine Learning",
+        "name": "LLNL/PhyML",
+        "topics": [
+            "machine-learning",
+            "python",
+            "neural-network"
+        ],
+        "website": ""
+    },
     "LLNL/PnMPI": {
         "description": "Virtualization Layer for the MPI Profiling Interface",
         "name": "LLNL/PnMPI",
@@ -3101,10 +3279,23 @@
         "website": null
     },
     "LLNL/ROSE-LCOM-Tools": {
-        "description": "Computes LCOM metrics for Ada",
+        "description": "Computes LCOM metrics for C++ and Ada code",
         "name": "LLNL/ROSE-LCOM-Tools",
-        "topics": null,
-        "website": null
+        "topics": [
+            "code-metrics",
+            "cohesion",
+            "lack-of-cohesion",
+            "lack-of-cohesion-of-test-methods",
+            "lcom",
+            "metrics",
+            "metrics-gathering",
+            "object-oriented",
+            "oop",
+            "software-engineering",
+            "static-analysis",
+            "static-analyzer"
+        ],
+        "website": ""
     },
     "LLNL/RadSim": {
         "description": "An open-source radiation simulation software framework.",
@@ -3184,14 +3375,20 @@
         "topics": null,
         "website": null
     },
+    "LLNL/SHOCK-UQ": {
+        "description": "This repository is for the Uncertainty Quantification Demystified class given at SCCM 2025.",
+        "name": "LLNL/SHOCK-UQ",
+        "topics": null,
+        "website": null
+    },
     "LLNL/SNLS": {
-        "description": "Small Non-Linear Solver",
+        "description": "GPU-friendly Small Non-Linear Solvers (SNLS)",
         "name": "LLNL/SNLS",
         "topics": [
             "solver",
             "math-physics"
         ],
-        "website": null
+        "website": ""
     },
     "LLNL/SSAPy": {
         "description": "A Python package allowing for fast and precise orbital modeling.",
@@ -3333,7 +3530,7 @@
         "website": ""
     },
     "LLNL/Surfactant": {
-        "description": "Modular framework for SBOM generation that gathers file information and analyzes dependencies",
+        "description": "Modular framework for file information extraction and dependency analysis to generate accurate SBOMs",
         "name": "LLNL/Surfactant",
         "topics": [
             "cyclonedx",
@@ -3367,6 +3564,12 @@
             "materials"
         ],
         "website": ""
+    },
+    "LLNL/TOPEFC": {
+        "description": "Topology Optimization for Full-Cell Electrochemical Energy Storage Device",
+        "name": "LLNL/TOPEFC",
+        "topics": null,
+        "website": null
     },
     "LLNL/TargetID": {
         "description": null,
@@ -3642,6 +3845,18 @@
         "topics": null,
         "website": ""
     },
+    "LLNL/aiida-flux-scheduler": {
+        "description": "Flux scheduler plugin for AiiDA.",
+        "name": "LLNL/aiida-flux-scheduler",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/aiida-inq": {
+        "description": "AiiDA plugin for the LLNL developed INQ code.",
+        "name": "LLNL/aiida-inq",
+        "topics": null,
+        "website": null
+    },
     "LLNL/al_nlp": {
         "description": "Active Learning framework for Natural Language Processing of pathology reports.",
         "name": "LLNL/al_nlp",
@@ -3650,6 +3865,14 @@
             "natural-language-processing"
         ],
         "website": null
+    },
+    "LLNL/anchoring": {
+        "description": "On the Use of Anchoring for Training Vision Models",
+        "name": "LLNL/anchoring",
+        "topics": [
+            "machine-learning"
+        ],
+        "website": ""
     },
     "LLNL/ap": {
         "description": "Absolute Path Command",
@@ -3760,6 +3983,12 @@
             "hpc"
         ],
         "website": "https://software.llnl.gov/benchpark/"
+    },
+    "LLNL/benchpark-tutorial": {
+        "description": null,
+        "name": "LLNL/benchpark-tutorial",
+        "topics": null,
+        "website": null
     },
     "LLNL/bindee": {
         "description": "Fast C++-Python bindings for simple cases.",
@@ -3952,9 +4181,10 @@
         "description": "node-http-proxy plus a REST API",
         "name": "LLNL/configurable-http-proxy",
         "topics": [
-            "javascript"
+            "javascript",
+            "proxy-application"
         ],
-        "website": null
+        "website": ""
     },
     "LLNL/coreFPUtest": {
         "description": "This test is designed to perform a specific calculation that has been shown to exhibit rounding differences on certain \"bad\" AMD Opteron chips.",
@@ -4052,6 +4282,18 @@
         ],
         "website": ""
     },
+    "LLNL/dapper": {
+        "description": "Dependency Analysis Project - tools to discover implicit dependencies in source code and on systems",
+        "name": "LLNL/dapper",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/datacrumbs": {
+        "description": "A multi-level dataflow profiler for capture I/O calls from worklows.",
+        "name": "LLNL/datacrumbs",
+        "topics": null,
+        "website": null
+    },
     "LLNL/dataracebench": {
         "description": "Data race benchmark suite for evaluating OpenMP correctness tools aimed to detect data races.",
         "name": "LLNL/dataracebench",
@@ -4071,7 +4313,7 @@
             "mongodb",
             "python"
         ],
-        "website": ""
+        "website": "http://software.llnl.gov/dbComm/"
     },
     "LLNL/ddcMD": {
         "description": "A fully GPU-accelerated molecular dynamics program for the Martini force field",
@@ -4093,12 +4335,35 @@
         ],
         "website": ""
     },
+    "LLNL/deepopt": {
+        "description": null,
+        "name": "LLNL/deepopt",
+        "topics": null,
+        "website": null
+    },
     "LLNL/devil_ray": {
         "description": null,
         "name": "LLNL/devil_ray",
         "topics": [
             "cpp"
         ],
+        "website": null
+    },
+    "LLNL/dfanalyzer": {
+        "description": "Layered data-flow analysis for HPC I/O.",
+        "name": "LLNL/dfanalyzer",
+        "topics": [
+            "deep-learning",
+            "hpc",
+            "io-analysis",
+            "multi-layer"
+        ],
+        "website": "https://dfanalyzer.readthedocs.io/en/latest/"
+    },
+    "LLNL/dfoptimizer": {
+        "description": null,
+        "name": "LLNL/dfoptimizer",
+        "topics": null,
         "website": null
     },
     "LLNL/dftf": {
@@ -4108,8 +4373,26 @@
         "website": null
     },
     "LLNL/dftracer": {
-        "description": "A multi-level dataflow tracer for capture I/O calls from worklows.",
+        "description": "A multi-level dataflow tracer for capturing I/O calls from workflows.",
         "name": "LLNL/dftracer",
+        "topics": [
+            "deep",
+            "io",
+            "learning",
+            "profiler",
+            "dlio"
+        ],
+        "website": "https://dftracer.readthedocs.io/en/latest/"
+    },
+    "LLNL/dftracer-bak": {
+        "description": "A multi-level dataflow tracer for capture I/O calls from worklows.",
+        "name": "LLNL/dftracer-bak",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/dftracer-utils": {
+        "description": "A collection of utilities for DFTracer",
+        "name": "LLNL/dftracer-utils",
         "topics": null,
         "website": null
     },
@@ -4164,6 +4447,20 @@
             "dislocation-dynamics",
             "gpu",
             "kokkos",
+            "application"
+        ],
+        "website": "https://opendis.github.io/OpenDiS/core_libraries/exadis_documentation/index.html"
+    },
+    "LLNL/exajugo": {
+        "description": "ExaJuGO: Exascale Julia Grid Optimization",
+        "name": "LLNL/exajugo",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/ez-Quench": {
+        "description": "A simple model for jet quenching in Heavy Ion Physics",
+        "name": "LLNL/ez-Quench",
+        "topics": [
             "application"
         ],
         "website": ""
@@ -4231,6 +4528,12 @@
             "simulation"
         ],
         "website": ""
+    },
+    "LLNL/flood_changes": {
+        "description": null,
+        "name": "LLNL/flood_changes",
+        "topics": null,
+        "website": null
     },
     "LLNL/flume-plugins": {
         "description": "A small collection of Flume Plugins and scripts.",
@@ -4501,6 +4804,18 @@
         ],
         "website": ""
     },
+    "LLNL/hwo1dGUI": {
+        "description": null,
+        "name": "LLNL/hwo1dGUI",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/hypar-lightweight": {
+        "description": "Conservative Finite-Difference Solver for Hyperbolic-Parabolic PDEs",
+        "name": "LLNL/hypar-lightweight",
+        "topics": null,
+        "website": "http://hypar.github.io"
+    },
     "LLNL/hypre": {
         "description": "Parallel solvers for sparse linear systems featuring multigrid methods.",
         "name": "LLNL/hypre",
@@ -4594,6 +4909,12 @@
         "topics": null,
         "website": null
     },
+    "LLNL/jsonlogic": {
+        "description": null,
+        "name": "LLNL/jsonlogic",
+        "topics": null,
+        "website": null
+    },
     "LLNL/jupyterhub": {
         "description": "Multi-user server for Jupyter notebooks",
         "name": "LLNL/jupyterhub",
@@ -4621,20 +4942,6 @@
         ],
         "website": ""
     },
-    "LLNL/lbann": {
-        "description": "Livermore Big Artificial Neural Network Toolkit",
-        "name": "LLNL/lbann",
-        "topics": [
-            "machine-learning",
-            "neural-network",
-            "hpc",
-            "cpp",
-            "radiuss",
-            "performance",
-            "artificial-intelligence"
-        ],
-        "website": "http://software.llnl.gov/lbann/"
-    },
     "LLNL/ldapotp-java-api": {
         "description": "provides OTP authentication services for java applications",
         "name": "LLNL/ldapotp-java-api",
@@ -4648,6 +4955,12 @@
         "name": "LLNL/ldapotp-jni-lib",
         "topics": null,
         "website": null
+    },
+    "LLNL/ldms": {
+        "description": "OVIS High Performance Computing monitoring, analysis, and visualization project. ",
+        "name": "LLNL/ldms",
+        "topics": null,
+        "website": "https://github.com/ovis-hpc/ovis/wiki"
     },
     "LLNL/ldms-plugins-llnl": {
         "description": "Miscellaneous LDMS plugins from LLNL",
@@ -4671,7 +4984,7 @@
         "website": null
     },
     "LLNL/libROM": {
-        "description": "Model reduction library with an emphasis on large scale parallelism and linear subspace methods",
+        "description": "Data-driven model reduction library with an emphasis on large scale parallelism and linear subspace methods",
         "name": "LLNL/libROM",
         "topics": [
             "scientific",
@@ -4764,10 +5077,10 @@
         "website": ""
     },
     "LLNL/ltau-ff": {
-        "description": "A placeholder repository, to be updated pending completion of internal review process",
+        "description": "Code for implementing the LTAU UQ method",
         "name": "LLNL/ltau-ff",
         "topics": null,
-        "website": null
+        "website": ""
     },
     "LLNL/lustre": {
         "description": "LLNL's branches of Lustre",
@@ -4949,6 +5262,12 @@
         "topics": null,
         "website": null
     },
+    "LLNL/microbenchmarks": {
+        "description": null,
+        "name": "LLNL/microbenchmarks",
+        "topics": null,
+        "website": null
+    },
     "LLNL/mimir": {
         "description": null,
         "name": "LLNL/mimir",
@@ -5076,6 +5395,12 @@
         ],
         "website": ""
     },
+    "LLNL/mtinv": {
+        "description": "Moment Tensor Inversion Toolkit MTINV ",
+        "name": "LLNL/mtinv",
+        "topics": null,
+        "website": ""
+    },
     "LLNL/mttime": {
         "description": "Time Domain Moment Tensor Inversion in Python",
         "name": "LLNL/mttime",
@@ -5087,6 +5412,12 @@
             "inversion"
         ],
         "website": "https://mttime.readthedocs.io/en/latest/index.html"
+    },
+    "LLNL/multiwfs": {
+        "description": "Control Algorithms for Multi-Wavefront Sensor Adaptive Optics for Astronomical Exoplanet Imaging (MWFSC)",
+        "name": "LLNL/multiwfs",
+        "topics": null,
+        "website": null
     },
     "LLNL/muster": {
         "description": "Massively Scalable Clustering",
@@ -5128,6 +5459,12 @@
         "topics": null,
         "website": null
     },
+    "LLNL/omi_data_tools_open_source": {
+        "description": null,
+        "name": "LLNL/omi_data_tools_open_source",
+        "topics": null,
+        "website": null
+    },
     "LLNL/omnibus-gitlab": {
         "description": "GitLab Omnibus Mirror | Please open new issues in our issue tracker on GitLab.com",
         "name": "LLNL/omnibus-gitlab",
@@ -5148,11 +5485,11 @@
         ],
         "website": null
     },
-    "LLNL/ovis": {
-        "description": "OVIS High Performance Computing monitoring, analysis, and visualization project. ",
-        "name": "LLNL/ovis",
+    "LLNL/pEyeON": {
+        "description": "Repository for the EyeON file manifest tool",
+        "name": "LLNL/pEyeON",
         "topics": null,
-        "website": "https://github.com/ovis-hpc/ovis/wiki"
+        "website": "https://peyeon.readthedocs.io/en/latest/"
     },
     "LLNL/pLiner": {
         "description": "pLiner is a framework that helps programmers identify locations in the source of numerical code that are highly affected by compiler optimizations.",
@@ -5163,6 +5500,12 @@
     "LLNL/paraDIS_lib": {
         "description": "Visualization library to work with the paraDIS dislocation dynamics code",
         "name": "LLNL/paraDIS_lib",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/paraview_mcp": {
+        "description": "ParaView-MCP integrates multimodal LLMs with ParaView via Model Context Protocol, enabling natural language control of scientific visualizations. The agent observes the viewport for visual feedback, making complex visualization tool accessible to all users while providing intelligent automation for experts.",
+        "name": "LLNL/paraview_mcp",
         "topics": null,
         "website": null
     },
@@ -5204,6 +5547,18 @@
         ],
         "website": null
     },
+    "LLNL/playwright-crx-ai": {
+        "description": "Playwright for chrome extensions",
+        "name": "LLNL/playwright-crx-ai",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/playwright-tracegen": {
+        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+        "name": "LLNL/playwright-tracegen",
+        "topics": null,
+        "website": "https://playwright.dev"
+    },
     "LLNL/pmgr_collective": {
         "description": null,
         "name": "LLNL/pmgr_collective",
@@ -5216,6 +5571,31 @@
         "topics": [
             "math-physics"
         ],
+        "website": null
+    },
+    "LLNL/polytope": {
+        "description": "A library for generating Voronoi and Voronoi-like tessellations for computational domains with nontrivial boundaries.",
+        "name": "LLNL/polytope",
+        "topics": [
+            "voronoi",
+            "computational-geometry",
+            "scientific-computing",
+            "tessellation",
+            "parallel-computing",
+            "hpc"
+        ],
+        "website": ""
+    },
+    "LLNL/popclass": {
+        "description": "A  python package that allows flexible, probabilistic classification of a microlensing event",
+        "name": "LLNL/popclass",
+        "topics": null,
+        "website": "https://popclass.readthedocs.io"
+    },
+    "LLNL/ppo_and_friends": {
+        "description": "MPI Distributed Proximal Policy Optimization And Friends",
+        "name": "LLNL/ppo_and_friends",
+        "topics": null,
         "website": null
     },
     "LLNL/productivity-frameworks": {
@@ -5232,6 +5612,31 @@
             "simluation"
         ],
         "website": null
+    },
+    "LLNL/protlib-designer": {
+        "description": "Integer Linear Programming for Protein Library Design",
+        "name": "LLNL/protlib-designer",
+        "topics": [
+            "protein-design",
+            "antibody-design",
+            "integer-programming",
+            "inverse-folding",
+            "protein-language-model",
+            "machine-learning",
+            "python",
+            "application"
+        ],
+        "website": ""
+    },
+    "LLNL/psuade": {
+        "description": "Problem Solving environment for Uncertainty Analysis and Design Exploration",
+        "name": "LLNL/psuade",
+        "topics": [
+            "uncertainty-quantification",
+            "radiuss",
+            "math-physics"
+        ],
+        "website": "https://computing.llnl.gov/projects/psuade"
     },
     "LLNL/psuade-lite": {
         "description": "Lighter version of  the Problem Solving environment for Uncertainty Analysis and Design Exploration (PSUADE)",
@@ -5262,11 +5667,37 @@
         ],
         "website": ""
     },
+    "LLNL/pySigma-backend-duckdb": {
+        "description": null,
+        "name": "LLNL/pySigma-backend-duckdb",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/pySigma-pipeline-wintap": {
+        "description": null,
+        "name": "LLNL/pySigma-pipeline-wintap",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/pydftracer": {
+        "description": "This repository contains the python binding for DFTracer",
+        "name": "LLNL/pydftracer",
+        "topics": null,
+        "website": null
+    },
     "LLNL/pylibROM": {
         "description": "Python interface for libROM, library for reduced order models",
         "name": "LLNL/pylibROM",
         "topics": null,
         "website": "https://www.librom.net"
+    },
+    "LLNL/pylulesh": {
+        "description": "Python port of LULESH",
+        "name": "LLNL/pylulesh",
+        "topics": [
+            "python"
+        ],
+        "website": ""
     },
     "LLNL/pynamic": {
         "description": "The Python Dynamic Benchmark",
@@ -5369,6 +5800,12 @@
     "LLNL/quandary": {
         "description": "Optimal control for open quantum systems",
         "name": "LLNL/quandary",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/quandary-examples": {
+        "description": "Examples for Quandary",
+        "name": "LLNL/quandary-examples",
         "topics": null,
         "website": null
     },
@@ -5517,6 +5954,12 @@
         "topics": null,
         "website": null
     },
+    "LLNL/repligit": {
+        "description": "A Git client for mirroring multiple remotes without storing state",
+        "name": "LLNL/repligit",
+        "topics": null,
+        "website": "https://pypi.org/project/repligit/"
+    },
     "LLNL/response": {
         "description": "The seismic response processing module is a library for removing instrument response signals from seismic recordings. Provides support for EvalResp, PZF, PAZ, FAP, PAZFIR, PAZFAP, FIRFAP, and CSS responses and parallel processing support for transfer.",
         "name": "LLNL/response",
@@ -5528,6 +5971,12 @@
         "name": "LLNL/rhizome",
         "topics": null,
         "website": ""
+    },
+    "LLNL/risingMicrobubbleLattice": {
+        "description": null,
+        "name": "LLNL/risingMicrobubbleLattice",
+        "topics": null,
+        "website": null
     },
     "LLNL/rollerball": {
         "description": "benignware (pseudo malware) plugin for the Notepad++ editor",
@@ -5600,6 +6049,12 @@
     "LLNL/saltatlas_h5_io": {
         "description": null,
         "name": "LLNL/saltatlas_h5_io",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/sc-foi": {
+        "description": "This repository provides the tools to analyze and design superconducting devices using a field integral overlap method.",
+        "name": "LLNL/sc-foi",
         "topics": null,
         "website": null
     },
@@ -5802,7 +6257,7 @@
             "llnl",
             "math-physics"
         ],
-        "website": ""
+        "website": "https://spheral.readthedocs.io"
     },
     "LLNL/spheral-docker": {
         "description": null,
@@ -5823,6 +6278,12 @@
         "name": "LLNL/spl",
         "topics": null,
         "website": "http://zfsonlinux.org/"
+    },
+    "LLNL/spnet": {
+        "description": "Repository for paper, \"Swap Path Network for Robust Person Search Pre-training\". Implements pre-training and fine-tuning of the Swap Path Net (SPNet) for person search. Contains code, configs, and instructions to reproduce all results from the paper.",
+        "name": "LLNL/spnet",
+        "topics": null,
+        "website": ""
     },
     "LLNL/spot2_container": {
         "description": "The container infrastructure for the SPOT performance visualization tool",
@@ -5877,6 +6338,12 @@
             "high-performance-computing"
         ],
         "website": "https://computing.llnl.gov/projects/sundials"
+    },
+    "LLNL/system-noise": {
+        "description": "System noise utilities and benchmarks for HPC",
+        "name": "LLNL/system-noise",
+        "topics": null,
+        "website": null
     },
     "LLNL/systems2atoms": {
         "description": null,
@@ -6068,6 +6535,12 @@
         ],
         "website": null
     },
+    "LLNL/weave": {
+        "description": null,
+        "name": "LLNL/weave",
+        "topics": null,
+        "website": null
+    },
     "LLNL/weave-demos": {
         "description": "General Demos for WEAVE Open-sourced tools.",
         "name": "LLNL/weave-demos",
@@ -6105,6 +6578,18 @@
     "LLNL/ygm-bench": {
         "description": null,
         "name": "LLNL/ygm-bench",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/ygm-project-template": {
+        "description": "Build system template for YGM based projects.",
+        "name": "LLNL/ygm-project-template",
+        "topics": null,
+        "website": null
+    },
+    "LLNL/ygm-tools": {
+        "description": null,
+        "name": "LLNL/ygm-tools",
         "topics": null,
         "website": null
     },
@@ -6196,15 +6681,15 @@
         "topics": null,
         "website": null
     },
-    "MetallData/json_logic": {
+    "MetallData/jsonlogic-cpp": {
         "description": "Implements json logic as a library",
-        "name": "MetallData/json_logic",
+        "name": "MetallData/jsonlogic-cpp",
         "topics": null,
         "website": null
     },
-    "MetallData/json_logic_cpp": {
-        "description": null,
-        "name": "MetallData/json_logic_cpp",
+    "MetallData/jsonlogic-py": {
+        "description": "A python library that can be used to construct JSONLogic expressions",
+        "name": "MetallData/jsonlogic-py",
         "topics": null,
         "website": null
     },
@@ -6213,6 +6698,18 @@
         "name": "MetallData/metalldata",
         "topics": null,
         "website": null
+    },
+    "Olympus-HPC/proteus": {
+        "description": "Programmable JIT Compilation and Optimization for C/C++ using LLVM",
+        "name": "Olympus-HPC/proteus",
+        "topics": null,
+        "website": ""
+    },
+    "Olympus-HPC/proteus-benchmarks": {
+        "description": "This repo stores benchmarks and a driver program to collect measurements for Proteus JIT optimization",
+        "name": "Olympus-HPC/proteus-benchmarks",
+        "topics": null,
+        "website": ""
     },
     "PRUNERS/CLMPI": {
         "description": "A PMPI tool for piggybacking Lamport clock",
@@ -6357,9 +6854,9 @@
         "topics": null,
         "website": null
     },
-    "bendudson/hermes-3": {
+    "boutproject/hermes-3": {
         "description": "Multifluid drift reduced fluid model",
-        "name": "bendudson/hermes-3",
+        "name": "boutproject/hermes-3",
         "topics": null,
         "website": null
     },
@@ -6597,6 +7094,12 @@
         "topics": null,
         "website": null
     },
+    "flux-framework/brewcop": {
+        "description": "BREWCOP is a Raspberry pi that Electronically Weighs COffee Pots",
+        "name": "flux-framework/brewcop",
+        "topics": null,
+        "website": ""
+    },
     "flux-framework/capacitor": {
         "description": "A bulk runner framework and tool for the flux resource manager",
         "name": "flux-framework/capacitor",
@@ -6652,7 +7155,7 @@
             "user-management",
             "priority-calculation"
         ],
-        "website": ""
+        "website": "https://flux-framework.readthedocs.io/projects/flux-accounting/en/latest/index.html"
     },
     "flux-framework/flux-coral2": {
         "description": "Plugins and services for Flux on CORAL2 systems",
@@ -6694,6 +7197,18 @@
             "docs"
         ],
         "website": "https://flux-framework.readthedocs.io/"
+    },
+    "flux-framework/flux-fiction": {
+        "description": null,
+        "name": "flux-framework/flux-fiction",
+        "topics": null,
+        "website": null
+    },
+    "flux-framework/flux-foundry": {
+        "description": "base classes for flux-framework",
+        "name": "flux-framework/flux-foundry",
+        "topics": null,
+        "website": null
     },
     "flux-framework/flux-framework.github.io": {
         "description": "Flux-framework website",
@@ -6764,9 +7279,9 @@
         ],
         "website": ""
     },
-    "flux-framework/flux-power-mgr": {
+    "flux-framework/flux-power-monitor": {
         "description": "Flux power monitoring and management modules",
-        "name": "flux-framework/flux-power-mgr",
+        "name": "flux-framework/flux-power-monitor",
         "topics": null,
         "website": ""
     },
@@ -7221,6 +7736,24 @@
         "topics": null,
         "website": null
     },
+    "nightlark/pymsi": {
+        "description": "Pure Python library for reading and extracting the contents of Windows installer (.msi) files",
+        "name": "nightlark/pymsi",
+        "topics": [
+            "extraction",
+            "msi",
+            "python"
+        ],
+        "website": ""
+    },
+    "nightlark/tippecanoe-pypi": {
+        "description": "pip install tippecanoe. Pre-compiled tippecanoe Python wheels for PyPI.",
+        "name": "nightlark/tippecanoe-pypi",
+        "topics": [
+            "hacktoberfest"
+        ],
+        "website": ""
+    },
     "nsgcc/nsCamera": {
         "description": "Driver & control software for Nanosecond Gated CMOS Cameras",
         "name": "nsgcc/nsCamera",
@@ -7261,6 +7794,12 @@
         ],
         "website": "https://openzfs.github.io/openzfs-docs/"
     },
+    "openzfs/openzfs.github.io": {
+        "description": "openzfs.github.io page",
+        "name": "openzfs/openzfs.github.io",
+        "topics": null,
+        "website": null
+    },
     "openzfs/spl": {
         "description": "A shim layer which adds the core interfaces required for OpenZFS.",
         "name": "openzfs/spl",
@@ -7298,6 +7837,12 @@
         "topics": null,
         "website": null
     },
+    "rose-compiler/docs": {
+        "description": "A backup for ROSE pdf documentation",
+        "name": "rose-compiler/docs",
+        "topics": null,
+        "website": null
+    },
     "rose-compiler/matlab-frontend": {
         "description": null,
         "name": "rose-compiler/matlab-frontend",
@@ -7305,7 +7850,7 @@
         "website": null
     },
     "rose-compiler/rose": {
-        "description": "Developed at Lawrence Livermore National Laboratory (LLNL), ROSE is an open source compiler infrastructure to build source-to-source program transformation and analysis tools for large-scale C (C89 and C98), C++ (C++98 and C++11), UPC, Fortran (77/95/2003), OpenMP, Java, Python and PHP applications.",
+        "description": "ROSE is an open-source compiler framework engineered by LLNL supporting program analysis and transformation at both the source and binary levels. ROSE can act as a compiler frontend for C, C++ (including applications which use UPC, OpenMP, or Cuda), Fortran, Java, Ada, and supports ELF and PE binary formats for a variety of instruction sets.",
         "name": "rose-compiler/rose",
         "topics": null,
         "website": "http://rosecompiler.org"
@@ -7321,6 +7866,12 @@
         "name": "rose-compiler/rose-archive",
         "topics": null,
         "website": "http://rosecompiler.org"
+    },
+    "rose-compiler/rose-compiler.github.io": {
+        "description": "a backup website for doxygen docs of ROSE",
+        "name": "rose-compiler/rose-compiler.github.io",
+        "topics": null,
+        "website": ""
     },
     "rose-compiler/rose-develop": {
         "description": "The latest development version of rose. It may not pass all regression tests.",
@@ -7359,6 +7910,12 @@
             "neural-network"
         ],
         "website": ""
+    },
+    "spack/all-pythons": {
+        "description": "container image for all pythons supported by spack/spack",
+        "name": "spack/all-pythons",
+        "topics": null,
+        "website": null
     },
     "spack/api-docs": {
         "description": "Repo to build separate readthedocs documentation for the Spack API docs",
@@ -7421,6 +7978,12 @@
         "topics": null,
         "website": "https://www.cp2k.org"
     },
+    "spack/gh-spack-pr": {
+        "description": "GitHub CLI extension for spack and tools for building pull requests when reviewing them, etc",
+        "name": "spack/gh-spack-pr",
+        "topics": null,
+        "website": ""
+    },
     "spack/github-actions-buildcache": {
         "description": "Spack build cache for Github Actions",
         "name": "spack/github-actions-buildcache",
@@ -7438,6 +8001,12 @@
         "name": "spack/gnuconfig",
         "topics": null,
         "website": "https://git.savannah.gnu.org/cgit/config.git/"
+    },
+    "spack/governance": {
+        "description": "Documents describing the governance of the Spack project.",
+        "name": "spack/governance",
+        "topics": null,
+        "website": null
     },
     "spack/label-schema": {
         "description": "Label schema for spack containers (under development)",
@@ -7475,9 +8044,21 @@
         "topics": null,
         "website": null
     },
+    "spack/migrate-package-prs": {
+        "description": "Migrate package PRs from spack/spack to spack/spack-packages",
+        "name": "spack/migrate-package-prs",
+        "topics": null,
+        "website": null
+    },
     "spack/msvc-wrapper": {
         "description": "C++-based compiler wrapper for cl.exe on Windows",
         "name": "spack/msvc-wrapper",
+        "topics": null,
+        "website": null
+    },
+    "spack/old-spack-tutorial-container": {
+        "description": "Dockerfile and artifacts (minus build cache) to create Spack tutorial container.",
+        "name": "spack/old-spack-tutorial-container",
         "topics": null,
         "website": null
     },
@@ -7502,6 +8083,12 @@
         "topics": null,
         "website": null
     },
+    "spack/pytorch": {
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "name": "spack/pytorch",
+        "topics": null,
+        "website": "https://pytorch.org"
+    },
     "spack/repolib": {
         "description": "[WIP] A library for handling stackable namespaced repositories of python classes",
         "name": "spack/repolib",
@@ -7523,6 +8110,12 @@
             "script"
         ],
         "website": ""
+    },
+    "spack/schemas": {
+        "description": "Repository with JSON schemas of Spack config files for editor support",
+        "name": "spack/schemas",
+        "topics": null,
+        "website": null
     },
     "spack/seps": {
         "description": "Spack Enhancement Proposals (SEPs)",
@@ -7559,7 +8152,8 @@
             "scientific-computing",
             "macos",
             "linux",
-            "hpsf"
+            "hpsf",
+            "windows"
         ],
         "website": "https://spack.io"
     },
@@ -7652,6 +8246,22 @@
         ],
         "website": "https://spack-monitor.readthedocs.io/"
     },
+    "spack/spack-packages": {
+        "description": "Spack's community package recipes",
+        "name": "spack/spack-packages",
+        "topics": [
+            "hpc",
+            "linux",
+            "macos",
+            "package-manager",
+            "packages",
+            "python",
+            "scientific-computing",
+            "spack",
+            "windows"
+        ],
+        "website": "https://packages.spack.io"
+    },
     "spack/spack-prereq": {
         "description": "A spack extension to check for spack pre-requisites",
         "name": "spack/spack-prereq",
@@ -7718,7 +8328,7 @@
         "topics": [
             "tutorial"
         ],
-        "website": ""
+        "website": "https://spack-tutorial.readthedocs.io"
     },
     "spack/spack-tutorial-ami": {
         "description": "Setup scripts for our Spack tutorial AMI",
@@ -7730,12 +8340,6 @@
             "ami"
         ],
         "website": ""
-    },
-    "spack/spack-tutorial-container": {
-        "description": "Dockerfile and artifacts (minus build cache) to create Spack tutorial container.",
-        "name": "spack/spack-tutorial-container",
-        "topics": null,
-        "website": null
     },
     "spack/spack-user-survey": {
         "description": "Data and analysis for Spack user surveys",
@@ -7892,9 +8496,18 @@
             "cmip",
             "cmip6",
             "e3sm",
-            "pcmdi"
+            "pcmdi",
+            "earth-system-science",
+            "earth-system",
+            "earth-system-data"
         ],
         "website": "https://xcdat.readthedocs.io/en/latest/"
+    },
+    "xCDAT/xcdat-data": {
+        "description": "Data repository for xCDAT examples.",
+        "name": "xCDAT/xcdat-data",
+        "topics": null,
+        "website": null
     },
     "xCDAT/xcdat-feedstock": {
         "description": "A conda-smithy repository for xcdat.",

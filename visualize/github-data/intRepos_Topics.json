@@ -1528,6 +1528,12 @@
                 "totalCount": 4
             }
         },
+        "ESGF/esgf-qc": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "ESGF/esgf-roadmap": {
             "repositoryTopics": {
                 "nodes": [],
@@ -1606,6 +1612,12 @@
                 "totalCount": 0
             }
         },
+        "ESGF/esgf-vocab": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "ESGF/esgf-web-fe": {
             "repositoryTopics": {
                 "nodes": [],
@@ -1649,6 +1661,12 @@
             }
         },
         "ESGF/sproket": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "ESGF/stac-transaction-api": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -1880,6 +1898,12 @@
                 "totalCount": 0
             }
         },
+        "GLVis/releases-js": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "GLVis/web": {
             "repositoryTopics": {
                 "nodes": [],
@@ -1928,9 +1952,16 @@
                             "name": "simulation-framework"
                         },
                         "url": "https://github.com/topics/simulation-framework"
+                    },
+                    {
+                        "resourcePath": "/topics/hacktoberfest",
+                        "topic": {
+                            "name": "hacktoberfest"
+                        },
+                        "url": "https://github.com/topics/hacktoberfest"
                     }
                 ],
-                "totalCount": 4
+                "totalCount": 5
             }
         },
         "GMLC-TDC/HELICS-BBX": {
@@ -2449,12 +2480,25 @@
                             "name": "python"
                         },
                         "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/hacktoberfest",
+                        "topic": {
+                            "name": "hacktoberfest"
+                        },
+                        "url": "https://github.com/topics/hacktoberfest"
                     }
                 ],
-                "totalCount": 2
+                "totalCount": 3
             }
         },
         "GMLC-TDC/redoc": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "GMLC-TDC/simHELICS": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -2473,6 +2517,113 @@
             }
         },
         "GMLC-TDC/utilities": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LBANN/DGraph": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LBANN/DiHydrogen": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/cpp",
+                        "topic": {
+                            "name": "cpp"
+                        },
+                        "url": "https://github.com/topics/cpp"
+                    },
+                    {
+                        "resourcePath": "/topics/math-physics",
+                        "topic": {
+                            "name": "math-physics"
+                        },
+                        "url": "https://github.com/topics/math-physics"
+                    }
+                ],
+                "totalCount": 2
+            }
+        },
+        "LBANN/HPC-launcher": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LBANN/cb_optillm": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LBANN/lbann": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/machine-learning",
+                        "topic": {
+                            "name": "machine-learning"
+                        },
+                        "url": "https://github.com/topics/machine-learning"
+                    },
+                    {
+                        "resourcePath": "/topics/neural-network",
+                        "topic": {
+                            "name": "neural-network"
+                        },
+                        "url": "https://github.com/topics/neural-network"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp",
+                        "topic": {
+                            "name": "cpp"
+                        },
+                        "url": "https://github.com/topics/cpp"
+                    },
+                    {
+                        "resourcePath": "/topics/radiuss",
+                        "topic": {
+                            "name": "radiuss"
+                        },
+                        "url": "https://github.com/topics/radiuss"
+                    },
+                    {
+                        "resourcePath": "/topics/performance",
+                        "topic": {
+                            "name": "performance"
+                        },
+                        "url": "https://github.com/topics/performance"
+                    },
+                    {
+                        "resourcePath": "/topics/artificial-intelligence",
+                        "topic": {
+                            "name": "artificial-intelligence"
+                        },
+                        "url": "https://github.com/topics/artificial-intelligence"
+                    }
+                ],
+                "totalCount": 7
+            }
+        },
+        "LBANN/llama": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LBANN/pyyogrt": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -2941,10 +3092,31 @@
                 "totalCount": 3
             }
         },
-        "LLNL/BinCFG": {
+        "LLNL/BayesMTL": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
+            }
+        },
+        "LLNL/BinCFG": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/machine-learning",
+                        "topic": {
+                            "name": "machine-learning"
+                        },
+                        "url": "https://github.com/topics/machine-learning"
+                    }
+                ],
+                "totalCount": 2
             }
         },
         "LLNL/BinFPE": {
@@ -2955,8 +3127,37 @@
         },
         "LLNL/CAP": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/workflows",
+                        "topic": {
+                            "name": "workflows"
+                        },
+                        "url": "https://github.com/topics/workflows"
+                    },
+                    {
+                        "resourcePath": "/topics/data-analysis",
+                        "topic": {
+                            "name": "data-analysis"
+                        },
+                        "url": "https://github.com/topics/data-analysis"
+                    }
+                ],
+                "totalCount": 4
             }
         },
         "LLNL/CARE": {
@@ -3433,6 +3634,18 @@
                 "totalCount": 3
             }
         },
+        "LLNL/CompilerGPT": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ContinuationSolvers": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/Copson_Expansion_Solution": {
             "repositoryTopics": {
                 "nodes": [
@@ -3468,6 +3681,24 @@
             }
         },
         "LLNL/DD-NM-ROM": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/DECIDER": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/DFDashboard": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/DFDiagnoser": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -3544,27 +3775,6 @@
                             "name": "machine-learning"
                         },
                         "url": "https://github.com/topics/machine-learning"
-                    }
-                ],
-                "totalCount": 2
-            }
-        },
-        "LLNL/DiHydrogen": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/cpp",
-                        "topic": {
-                            "name": "cpp"
-                        },
-                        "url": "https://github.com/topics/cpp"
-                    },
-                    {
-                        "resourcePath": "/topics/math-physics",
-                        "topic": {
-                            "name": "math-physics"
-                        },
-                        "url": "https://github.com/topics/math-physics"
                     }
                 ],
                 "totalCount": 2
@@ -3982,7 +4192,41 @@
                 "totalCount": 0
             }
         },
+        "LLNL/FTTN": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/testing",
+                        "topic": {
+                            "name": "testing"
+                        },
+                        "url": "https://github.com/topics/testing"
+                    },
+                    {
+                        "resourcePath": "/topics/gpu",
+                        "topic": {
+                            "name": "gpu"
+                        },
+                        "url": "https://github.com/topics/gpu"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    }
+                ],
+                "totalCount": 3
+            }
+        },
         "LLNL/FastGlobalFileStatus": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/FloatGuard": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -4307,6 +4551,12 @@
                 "totalCount": 2
             }
         },
+        "LLNL/Gula": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/H2OI95": {
             "repositoryTopics": {
                 "nodes": [],
@@ -4596,13 +4846,6 @@
                         "url": "https://github.com/topics/image-reconstruction"
                     },
                     {
-                        "resourcePath": "/topics/nde",
-                        "topic": {
-                            "name": "nde"
-                        },
-                        "url": "https://github.com/topics/nde"
-                    },
-                    {
                         "resourcePath": "/topics/metal-artifact-reduction",
                         "topic": {
                             "name": "metal-artifact-reduction"
@@ -4650,6 +4893,13 @@
                             "name": "tomographic-reconstruction"
                         },
                         "url": "https://github.com/topics/tomographic-reconstruction"
+                    },
+                    {
+                        "resourcePath": "/topics/helical-reconstruction",
+                        "topic": {
+                            "name": "helical-reconstruction"
+                        },
+                        "url": "https://github.com/topics/helical-reconstruction"
                     }
                 ],
                 "totalCount": 20
@@ -4882,6 +5132,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/Lintap": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/MACSio": {
             "repositoryTopics": {
                 "nodes": [
@@ -5100,6 +5356,12 @@
                     }
                 ],
                 "totalCount": 1
+            }
+        },
+        "LLNL/MUPPET": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/MacPatch": {
@@ -5374,6 +5636,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/NM-ROM": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/NPB": {
             "repositoryTopics": {
                 "nodes": [
@@ -5393,6 +5661,20 @@
                     }
                 ],
                 "totalCount": 2
+            }
+        },
+        "LLNL/NSBC": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/application",
+                        "topic": {
+                            "name": "application"
+                        },
+                        "url": "https://github.com/topics/application"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "LLNL/Neuralcap": {
@@ -5638,6 +5920,34 @@
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
+            }
+        },
+        "LLNL/PhyML": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/machine-learning",
+                        "topic": {
+                            "name": "machine-learning"
+                        },
+                        "url": "https://github.com/topics/machine-learning"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/neural-network",
+                        "topic": {
+                            "name": "neural-network"
+                        },
+                        "url": "https://github.com/topics/neural-network"
+                    }
+                ],
+                "totalCount": 3
             }
         },
         "LLNL/PnMPI": {
@@ -5947,8 +6257,93 @@
         },
         "LLNL/ROSE-LCOM-Tools": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/code-metrics",
+                        "topic": {
+                            "name": "code-metrics"
+                        },
+                        "url": "https://github.com/topics/code-metrics"
+                    },
+                    {
+                        "resourcePath": "/topics/cohesion",
+                        "topic": {
+                            "name": "cohesion"
+                        },
+                        "url": "https://github.com/topics/cohesion"
+                    },
+                    {
+                        "resourcePath": "/topics/lack-of-cohesion",
+                        "topic": {
+                            "name": "lack-of-cohesion"
+                        },
+                        "url": "https://github.com/topics/lack-of-cohesion"
+                    },
+                    {
+                        "resourcePath": "/topics/lack-of-cohesion-of-test-methods",
+                        "topic": {
+                            "name": "lack-of-cohesion-of-test-methods"
+                        },
+                        "url": "https://github.com/topics/lack-of-cohesion-of-test-methods"
+                    },
+                    {
+                        "resourcePath": "/topics/lcom",
+                        "topic": {
+                            "name": "lcom"
+                        },
+                        "url": "https://github.com/topics/lcom"
+                    },
+                    {
+                        "resourcePath": "/topics/metrics",
+                        "topic": {
+                            "name": "metrics"
+                        },
+                        "url": "https://github.com/topics/metrics"
+                    },
+                    {
+                        "resourcePath": "/topics/metrics-gathering",
+                        "topic": {
+                            "name": "metrics-gathering"
+                        },
+                        "url": "https://github.com/topics/metrics-gathering"
+                    },
+                    {
+                        "resourcePath": "/topics/object-oriented",
+                        "topic": {
+                            "name": "object-oriented"
+                        },
+                        "url": "https://github.com/topics/object-oriented"
+                    },
+                    {
+                        "resourcePath": "/topics/oop",
+                        "topic": {
+                            "name": "oop"
+                        },
+                        "url": "https://github.com/topics/oop"
+                    },
+                    {
+                        "resourcePath": "/topics/software-engineering",
+                        "topic": {
+                            "name": "software-engineering"
+                        },
+                        "url": "https://github.com/topics/software-engineering"
+                    },
+                    {
+                        "resourcePath": "/topics/static-analysis",
+                        "topic": {
+                            "name": "static-analysis"
+                        },
+                        "url": "https://github.com/topics/static-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/static-analyzer",
+                        "topic": {
+                            "name": "static-analyzer"
+                        },
+                        "url": "https://github.com/topics/static-analyzer"
+                    }
+                ],
+                "totalCount": 12
             }
         },
         "LLNL/RadSim": {
@@ -6132,6 +6527,12 @@
             }
         },
         "LLNL/SCR-model": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/SHOCK-UQ": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -6649,6 +7050,12 @@
                     }
                 ],
                 "totalCount": 8
+            }
+        },
+        "LLNL/TOPEFC": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/TargetID": {
@@ -7183,6 +7590,18 @@
                 "totalCount": 0
             }
         },
+        "LLNL/aiida-flux-scheduler": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/aiida-inq": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/al_nlp": {
             "repositoryTopics": {
                 "nodes": [
@@ -7202,6 +7621,20 @@
                     }
                 ],
                 "totalCount": 2
+            }
+        },
+        "LLNL/anchoring": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/machine-learning",
+                        "topic": {
+                            "name": "machine-learning"
+                        },
+                        "url": "https://github.com/topics/machine-learning"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "LLNL/ap": {
@@ -7498,6 +7931,12 @@
                     }
                 ],
                 "totalCount": 2
+            }
+        },
+        "LLNL/benchpark-tutorial": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/bindee": {
@@ -7948,9 +8387,16 @@
                             "name": "javascript"
                         },
                         "url": "https://github.com/topics/javascript"
+                    },
+                    {
+                        "resourcePath": "/topics/proxy-application",
+                        "topic": {
+                            "name": "proxy-application"
+                        },
+                        "url": "https://github.com/topics/proxy-application"
                     }
                 ],
-                "totalCount": 1
+                "totalCount": 2
             }
         },
         "LLNL/coreFPUtest": {
@@ -8199,6 +8645,18 @@
                 "totalCount": 7
             }
         },
+        "LLNL/dapper": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/datacrumbs": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/dataracebench": {
             "repositoryTopics": {
                 "nodes": [
@@ -8288,6 +8746,12 @@
                 "totalCount": 1
             }
         },
+        "LLNL/deepopt": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/devil_ray": {
             "repositoryTopics": {
                 "nodes": [
@@ -8302,6 +8766,47 @@
                 "totalCount": 1
             }
         },
+        "LLNL/dfanalyzer": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/deep-learning",
+                        "topic": {
+                            "name": "deep-learning"
+                        },
+                        "url": "https://github.com/topics/deep-learning"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/io-analysis",
+                        "topic": {
+                            "name": "io-analysis"
+                        },
+                        "url": "https://github.com/topics/io-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/multi-layer",
+                        "topic": {
+                            "name": "multi-layer"
+                        },
+                        "url": "https://github.com/topics/multi-layer"
+                    }
+                ],
+                "totalCount": 4
+            }
+        },
+        "LLNL/dfoptimizer": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/dftf": {
             "repositoryTopics": {
                 "nodes": [],
@@ -8309,6 +8814,54 @@
             }
         },
         "LLNL/dftracer": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/deep",
+                        "topic": {
+                            "name": "deep"
+                        },
+                        "url": "https://github.com/topics/deep"
+                    },
+                    {
+                        "resourcePath": "/topics/io",
+                        "topic": {
+                            "name": "io"
+                        },
+                        "url": "https://github.com/topics/io"
+                    },
+                    {
+                        "resourcePath": "/topics/learning",
+                        "topic": {
+                            "name": "learning"
+                        },
+                        "url": "https://github.com/topics/learning"
+                    },
+                    {
+                        "resourcePath": "/topics/profiler",
+                        "topic": {
+                            "name": "profiler"
+                        },
+                        "url": "https://github.com/topics/profiler"
+                    },
+                    {
+                        "resourcePath": "/topics/dlio",
+                        "topic": {
+                            "name": "dlio"
+                        },
+                        "url": "https://github.com/topics/dlio"
+                    }
+                ],
+                "totalCount": 5
+            }
+        },
+        "LLNL/dftracer-bak": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/dftracer-utils": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -8427,6 +8980,26 @@
                     }
                 ],
                 "totalCount": 4
+            }
+        },
+        "LLNL/exajugo": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ez-Quench": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/application",
+                        "topic": {
+                            "name": "application"
+                        },
+                        "url": "https://github.com/topics/application"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "LLNL/ezAlign": {
@@ -8629,6 +9202,12 @@
                     }
                 ],
                 "totalCount": 7
+            }
+        },
+        "LLNL/flood_changes": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/flume-plugins": {
@@ -9416,6 +9995,18 @@
                 "totalCount": 3
             }
         },
+        "LLNL/hwo1dGUI": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/hypar-lightweight": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/hypre": {
             "repositoryTopics": {
                 "nodes": [],
@@ -9611,6 +10202,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/jsonlogic": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/jupyterhub": {
             "repositoryTopics": {
                 "nodes": [],
@@ -9680,62 +10277,6 @@
                 "totalCount": 1
             }
         },
-        "LLNL/lbann": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/machine-learning",
-                        "topic": {
-                            "name": "machine-learning"
-                        },
-                        "url": "https://github.com/topics/machine-learning"
-                    },
-                    {
-                        "resourcePath": "/topics/neural-network",
-                        "topic": {
-                            "name": "neural-network"
-                        },
-                        "url": "https://github.com/topics/neural-network"
-                    },
-                    {
-                        "resourcePath": "/topics/hpc",
-                        "topic": {
-                            "name": "hpc"
-                        },
-                        "url": "https://github.com/topics/hpc"
-                    },
-                    {
-                        "resourcePath": "/topics/cpp",
-                        "topic": {
-                            "name": "cpp"
-                        },
-                        "url": "https://github.com/topics/cpp"
-                    },
-                    {
-                        "resourcePath": "/topics/radiuss",
-                        "topic": {
-                            "name": "radiuss"
-                        },
-                        "url": "https://github.com/topics/radiuss"
-                    },
-                    {
-                        "resourcePath": "/topics/performance",
-                        "topic": {
-                            "name": "performance"
-                        },
-                        "url": "https://github.com/topics/performance"
-                    },
-                    {
-                        "resourcePath": "/topics/artificial-intelligence",
-                        "topic": {
-                            "name": "artificial-intelligence"
-                        },
-                        "url": "https://github.com/topics/artificial-intelligence"
-                    }
-                ],
-                "totalCount": 7
-            }
-        },
         "LLNL/ldapotp-java-api": {
             "repositoryTopics": {
                 "nodes": [
@@ -9751,6 +10292,12 @@
             }
         },
         "LLNL/ldapotp-jni-lib": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ldms": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -10518,6 +11065,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/microbenchmarks": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/mimir": {
             "repositoryTopics": {
                 "nodes": [],
@@ -10849,6 +11402,12 @@
                 "totalCount": 2
             }
         },
+        "LLNL/mtinv": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/mttime": {
             "repositoryTopics": {
                 "nodes": [
@@ -10889,6 +11448,12 @@
                     }
                 ],
                 "totalCount": 5
+            }
+        },
+        "LLNL/multiwfs": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/muster": {
@@ -10973,6 +11538,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/omi_data_tools_open_source": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/omnibus-gitlab": {
             "repositoryTopics": {
                 "nodes": [],
@@ -10999,7 +11570,7 @@
                 "totalCount": 1
             }
         },
-        "LLNL/ovis": {
+        "LLNL/pEyeON": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -11012,6 +11583,12 @@
             }
         },
         "LLNL/paraDIS_lib": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/paraview_mcp": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -11115,6 +11692,18 @@
                 "totalCount": 1
             }
         },
+        "LLNL/playwright-crx-ai": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/playwright-tracegen": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/pmgr_collective": {
             "repositoryTopics": {
                 "nodes": [],
@@ -11133,6 +11722,67 @@
                     }
                 ],
                 "totalCount": 1
+            }
+        },
+        "LLNL/polytope": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/voronoi",
+                        "topic": {
+                            "name": "voronoi"
+                        },
+                        "url": "https://github.com/topics/voronoi"
+                    },
+                    {
+                        "resourcePath": "/topics/computational-geometry",
+                        "topic": {
+                            "name": "computational-geometry"
+                        },
+                        "url": "https://github.com/topics/computational-geometry"
+                    },
+                    {
+                        "resourcePath": "/topics/scientific-computing",
+                        "topic": {
+                            "name": "scientific-computing"
+                        },
+                        "url": "https://github.com/topics/scientific-computing"
+                    },
+                    {
+                        "resourcePath": "/topics/tessellation",
+                        "topic": {
+                            "name": "tessellation"
+                        },
+                        "url": "https://github.com/topics/tessellation"
+                    },
+                    {
+                        "resourcePath": "/topics/parallel-computing",
+                        "topic": {
+                            "name": "parallel-computing"
+                        },
+                        "url": "https://github.com/topics/parallel-computing"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    }
+                ],
+                "totalCount": 6
+            }
+        },
+        "LLNL/popclass": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ppo_and_friends": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/productivity-frameworks": {
@@ -11160,6 +11810,97 @@
                     }
                 ],
                 "totalCount": 2
+            }
+        },
+        "LLNL/protlib-designer": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/protein-design",
+                        "topic": {
+                            "name": "protein-design"
+                        },
+                        "url": "https://github.com/topics/protein-design"
+                    },
+                    {
+                        "resourcePath": "/topics/antibody-design",
+                        "topic": {
+                            "name": "antibody-design"
+                        },
+                        "url": "https://github.com/topics/antibody-design"
+                    },
+                    {
+                        "resourcePath": "/topics/integer-programming",
+                        "topic": {
+                            "name": "integer-programming"
+                        },
+                        "url": "https://github.com/topics/integer-programming"
+                    },
+                    {
+                        "resourcePath": "/topics/inverse-folding",
+                        "topic": {
+                            "name": "inverse-folding"
+                        },
+                        "url": "https://github.com/topics/inverse-folding"
+                    },
+                    {
+                        "resourcePath": "/topics/protein-language-model",
+                        "topic": {
+                            "name": "protein-language-model"
+                        },
+                        "url": "https://github.com/topics/protein-language-model"
+                    },
+                    {
+                        "resourcePath": "/topics/machine-learning",
+                        "topic": {
+                            "name": "machine-learning"
+                        },
+                        "url": "https://github.com/topics/machine-learning"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/application",
+                        "topic": {
+                            "name": "application"
+                        },
+                        "url": "https://github.com/topics/application"
+                    }
+                ],
+                "totalCount": 8
+            }
+        },
+        "LLNL/psuade": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/uncertainty-quantification",
+                        "topic": {
+                            "name": "uncertainty-quantification"
+                        },
+                        "url": "https://github.com/topics/uncertainty-quantification"
+                    },
+                    {
+                        "resourcePath": "/topics/radiuss",
+                        "topic": {
+                            "name": "radiuss"
+                        },
+                        "url": "https://github.com/topics/radiuss"
+                    },
+                    {
+                        "resourcePath": "/topics/math-physics",
+                        "topic": {
+                            "name": "math-physics"
+                        },
+                        "url": "https://github.com/topics/math-physics"
+                    }
+                ],
+                "totalCount": 3
             }
         },
         "LLNL/psuade-lite": {
@@ -11209,10 +11950,42 @@
                 "totalCount": 1
             }
         },
+        "LLNL/pySigma-backend-duckdb": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/pySigma-pipeline-wintap": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/pydftracer": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/pylibROM": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
+            }
+        },
+        "LLNL/pylulesh": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "LLNL/pynamic": {
@@ -11505,6 +12278,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/quandary-examples": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/quantkriging": {
             "repositoryTopics": {
                 "nodes": [
@@ -11722,6 +12501,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/repligit": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/response": {
             "repositoryTopics": {
                 "nodes": [],
@@ -11729,6 +12514,12 @@
             }
         },
         "LLNL/rhizome": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/risingMicrobubbleLattice": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -11905,6 +12696,12 @@
             }
         },
         "LLNL/saltatlas_h5_io": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/sc-foi": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -12467,6 +13264,12 @@
                 "totalCount": 0
             }
         },
+        "LLNL/spnet": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/spot2_container": {
             "repositoryTopics": {
                 "nodes": [
@@ -12633,6 +13436,12 @@
                     }
                 ],
                 "totalCount": 12
+            }
+        },
+        "LLNL/system-noise": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "LLNL/systems2atoms": {
@@ -13029,6 +13838,12 @@
                 "totalCount": 2
             }
         },
+        "LLNL/weave": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "LLNL/weave-demos": {
             "repositoryTopics": {
                 "nodes": [
@@ -13106,6 +13921,18 @@
             }
         },
         "LLNL/ygm-bench": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ygm-project-template": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "LLNL/ygm-tools": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -13271,19 +14098,31 @@
                 "totalCount": 0
             }
         },
-        "MetallData/json_logic": {
+        "MetallData/jsonlogic-cpp": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
             }
         },
-        "MetallData/json_logic_cpp": {
+        "MetallData/jsonlogic-py": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
             }
         },
         "MetallData/metalldata": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "Olympus-HPC/proteus": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "Olympus-HPC/proteus-benchmarks": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -13546,7 +14385,7 @@
                 "totalCount": 0
             }
         },
-        "bendudson/hermes-3": {
+        "boutproject/hermes-3": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -13786,6 +14625,12 @@
                 "totalCount": 0
             }
         },
+        "flux-framework/brewcop": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "flux-framework/capacitor": {
             "repositoryTopics": {
                 "nodes": [],
@@ -13974,6 +14819,18 @@
                 "totalCount": 1
             }
         },
+        "flux-framework/flux-fiction": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "flux-framework/flux-foundry": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "flux-framework/flux-framework.github.io": {
             "repositoryTopics": {
                 "nodes": [],
@@ -14085,7 +14942,7 @@
                 "totalCount": 3
             }
         },
-        "flux-framework/flux-power-mgr": {
+        "flux-framework/flux-power-monitor": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -15034,6 +15891,48 @@
                 "totalCount": 0
             }
         },
+        "nightlark/pymsi": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/extraction",
+                        "topic": {
+                            "name": "extraction"
+                        },
+                        "url": "https://github.com/topics/extraction"
+                    },
+                    {
+                        "resourcePath": "/topics/msi",
+                        "topic": {
+                            "name": "msi"
+                        },
+                        "url": "https://github.com/topics/msi"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    }
+                ],
+                "totalCount": 3
+            }
+        },
+        "nightlark/tippecanoe-pypi": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/hacktoberfest",
+                        "topic": {
+                            "name": "hacktoberfest"
+                        },
+                        "url": "https://github.com/topics/hacktoberfest"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
         "nsgcc/nsCamera": {
             "repositoryTopics": {
                 "nodes": [
@@ -15084,6 +15983,12 @@
                     }
                 ],
                 "totalCount": 1
+            }
+        },
+        "openzfs/openzfs.github.io": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "openzfs/spl": {
@@ -15153,6 +16058,12 @@
                 "totalCount": 0
             }
         },
+        "rose-compiler/docs": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "rose-compiler/matlab-frontend": {
             "repositoryTopics": {
                 "nodes": [],
@@ -15172,6 +16083,12 @@
             }
         },
         "rose-compiler/rose-archive": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "rose-compiler/rose-compiler.github.io": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -15255,6 +16172,12 @@
                     }
                 ],
                 "totalCount": 7
+            }
+        },
+        "spack/all-pythons": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "spack/api-docs": {
@@ -15384,6 +16307,12 @@
                 "totalCount": 0
             }
         },
+        "spack/gh-spack-pr": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "spack/github-actions-buildcache": {
             "repositoryTopics": {
                 "nodes": [],
@@ -15397,6 +16326,12 @@
             }
         },
         "spack/gnuconfig": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/governance": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -15438,7 +16373,19 @@
                 "totalCount": 0
             }
         },
+        "spack/migrate-package-prs": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "spack/msvc-wrapper": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/old-spack-tutorial-container": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -15472,6 +16419,12 @@
             }
         },
         "spack/pypi-to-spack-package": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/pytorch": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -15515,6 +16468,12 @@
                     }
                 ],
                 "totalCount": 3
+            }
+        },
+        "spack/schemas": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "spack/seps": {
@@ -15629,9 +16588,16 @@
                             "name": "hpsf"
                         },
                         "url": "https://github.com/topics/hpsf"
+                    },
+                    {
+                        "resourcePath": "/topics/windows",
+                        "topic": {
+                            "name": "windows"
+                        },
+                        "url": "https://github.com/topics/windows"
                     }
                 ],
-                "totalCount": 10
+                "totalCount": 11
             }
         },
         "spack/spack-asp-prototypes": {
@@ -15745,6 +16711,76 @@
                     }
                 ],
                 "totalCount": 4
+            }
+        },
+        "spack/spack-packages": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/linux",
+                        "topic": {
+                            "name": "linux"
+                        },
+                        "url": "https://github.com/topics/linux"
+                    },
+                    {
+                        "resourcePath": "/topics/macos",
+                        "topic": {
+                            "name": "macos"
+                        },
+                        "url": "https://github.com/topics/macos"
+                    },
+                    {
+                        "resourcePath": "/topics/package-manager",
+                        "topic": {
+                            "name": "package-manager"
+                        },
+                        "url": "https://github.com/topics/package-manager"
+                    },
+                    {
+                        "resourcePath": "/topics/packages",
+                        "topic": {
+                            "name": "packages"
+                        },
+                        "url": "https://github.com/topics/packages"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    },
+                    {
+                        "resourcePath": "/topics/scientific-computing",
+                        "topic": {
+                            "name": "scientific-computing"
+                        },
+                        "url": "https://github.com/topics/scientific-computing"
+                    },
+                    {
+                        "resourcePath": "/topics/spack",
+                        "topic": {
+                            "name": "spack"
+                        },
+                        "url": "https://github.com/topics/spack"
+                    },
+                    {
+                        "resourcePath": "/topics/windows",
+                        "topic": {
+                            "name": "windows"
+                        },
+                        "url": "https://github.com/topics/windows"
+                    }
+                ],
+                "totalCount": 9
             }
         },
         "spack/spack-prereq": {
@@ -15878,12 +16914,6 @@
                     }
                 ],
                 "totalCount": 4
-            }
-        },
-        "spack/spack-tutorial-container": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
             }
         },
         "spack/spack-user-survey": {
@@ -16214,9 +17244,36 @@
                             "name": "pcmdi"
                         },
                         "url": "https://github.com/topics/pcmdi"
+                    },
+                    {
+                        "resourcePath": "/topics/earth-system-science",
+                        "topic": {
+                            "name": "earth-system-science"
+                        },
+                        "url": "https://github.com/topics/earth-system-science"
+                    },
+                    {
+                        "resourcePath": "/topics/earth-system",
+                        "topic": {
+                            "name": "earth-system"
+                        },
+                        "url": "https://github.com/topics/earth-system"
+                    },
+                    {
+                        "resourcePath": "/topics/earth-system-data",
+                        "topic": {
+                            "name": "earth-system-data"
+                        },
+                        "url": "https://github.com/topics/earth-system-data"
                     }
                 ],
-                "totalCount": 15
+                "totalCount": 18
+            }
+        },
+        "xCDAT/xcdat-data": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "xCDAT/xcdat-feedstock": {

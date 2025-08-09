@@ -1,7 +1,7 @@
 ---
 title: News
 layout: default
-description: Get answers to frequently asked questions about Lawrence Livermore National Laboratory's open source software.
+description: Catch up on the latest information about LLNL's open source software projects and activities.
 permalink: /news/
 breadcrumb: News
 ---
